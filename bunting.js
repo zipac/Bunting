@@ -1,6 +1,6 @@
 async function getHolidayInfo(){
     const holidays = new Promise(function(resolve,reject){
-        fetch("http://www.gov.uk/bank-holidays.json").then(function(response){
+        fetch("https://www.gov.uk/bank-holidays.json").then(function(response){
             response.json().then(function(data){
                 resolve(data);
             });
