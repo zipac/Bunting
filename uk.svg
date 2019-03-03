@@ -1,0 +1,7 @@
+<svg width="740" height="891" viewBox="0 0 740 891" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect id="northern-ireland" x="143" y="344" width="132" height="128" fill="#66C7C1"/>
+  <path id="ireland" d="M91 347.5H138V477H243V739H91H0V434H91V347.5Z" fill="#FF6E6E"/>
+  <rect id="wales" x="328" y="543" width="113" height="207" fill="#94CD8F"/>
+  <rect id="scotland" x="285" width="247" height="387" fill="#E2BEBE"/>
+  <path id="england" d="M451 399H740V822H486V891H275V781H451V399Z" fill="#DF9B6B"/>
+</svg>

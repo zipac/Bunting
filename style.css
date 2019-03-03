@@ -1,0 +1,20 @@
+.map {
+    height: 50vh;
+}
+
+#postscript {
+    font-size: 16px;
+}
+
+#date {
+    margin-bottom: 1em;
+}
+
+body {
+    text-align: center;
+}
+
+main {
+    width: 35em;   
+    margin: 0 auto; 
+}

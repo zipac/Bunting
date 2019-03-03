@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bunting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>&#9660; &#9660; &#9660; Bunting? &#9660; And Where? &#9660; &#9660; &#9660;</h1>
+    <main>
+        <p>Where in these isles uses bunting today?</p>
+        <div><input id="date" type="date"></div>
+               
+        
+        <svg height="300px" viewBox="0 0 740 891" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect id="northern-ireland" x="143" y="344" width="132" height="128" fill="#66C7C1"/>
+            <rect id="wales" x="328" y="543" width="113" height="207" fill="#94CD8F"/>
+            <rect id="scotland" x="285" width="247" height="387" fill="#E2BEBE"/>
+            <path id="england" d="M451 399H740V822H486V891H275V781H451V399Z" fill="#DF9B6B"/>
+        </svg>
+        
+        <p><span id=holidayName >The holidays on this date are: New Year's Day.</span></p>
+        <!-- This is a comment-->
+        
+        <p id="postscript">This web app uses the holiday information given at https://www.gov.uk/bank-holidays.json to
+            determine which parts of the UK (England, Northern Ireland, Scotland and Wales) celebrates
+            a holiday on a certain day on which it is reasonable to use bunting.
+        </p>
+    </main>
+    
+    <script src="bunting.js"></script>
+</body>
+</html>
+
+<!--https://www.gov.uk/bank-holidays.json-->
