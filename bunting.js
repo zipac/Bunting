@@ -80,7 +80,7 @@ function whichHolidays(date){
     if(holidayList.length!=0){
         holidayList = `The holidays on this date are: ${holidayList}.`
     } else {
-        holidayList = 0;
+        holidayList = "";
     }
 
     return holidayList;
